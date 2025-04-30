@@ -5,3 +5,18 @@ Version 0.1
     - Name: String
     - Age: Int
     - City: String
+Version 0.2
+- Imported libraries:
+    - Newtonsoft.Json: used to handle json files
+    - System: for basic functions
+    - System.IO: used for reading files and writing files
+    - System.Collections.Generic: Used for Lists
+- Created the main class Program
+- Created a public class named User which holds the json object with the following variables:
+    - public required string Name {get; set}
+    - public int Age {get; set}
+    - public required string City {get; set}
+- Created the Main function:
+    - read the "data.json" file
+    - Deserialized the json objects into a User class list
+    - Printed out the deserialized json objects
