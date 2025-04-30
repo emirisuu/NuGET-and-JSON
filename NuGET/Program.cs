@@ -12,6 +12,11 @@ class Program
         public required string City { get; set; }
     }
 
+    public class UserTypes : User
+    {
+        public string Type { get; set; }
+    }
+
     static void Main(string[] args)
     {
         string filePath = "data.json";

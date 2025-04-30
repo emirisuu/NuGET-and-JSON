@@ -20,3 +20,6 @@ Version 0.2
     - read the "data.json" file
     - Deserialized the json objects into a User class list
     - Printed out the deserialized json objects
+Version 0.3
+- Created public class UserTypes which inherits the class User and holds the following variables:
+    - public string Type {get; set}
