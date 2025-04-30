@@ -1,0 +1,27 @@
+[
+    {
+        "Name": "Emilis",
+        "Age": 20,
+        "City": "Siauliai"
+    },
+    {
+        "Name": "Orestas",
+        "Age": 19,
+        "City": "Siauliai"
+    },
+    {
+        "Name": "Justinas",
+        "Age": 21,
+        "City": "Palanga"
+    },
+    {
+        "Name": "Sofija",
+        "Age": 22,
+        "City": "Siauliai"
+    },
+    {
+        "Name": "Kevinas",
+        "Age": 21,
+        "City": "Vilnius"
+    }
+]
