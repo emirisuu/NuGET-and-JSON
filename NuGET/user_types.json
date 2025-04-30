@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Emilis",
+        "Age": 20,
+        "City": "Siauliai",
+        "Type": "Admin"
+    },
+    {
+        "Name": "Orestas",
+        "Age": 19,
+        "City": "Siauliai",
+        "Type": "Contributor"
+    },
+    {
+        "Name": "Justinas",
+        "Age": 21,
+        "City": "Palanga",
+        "Type": "User"
+    },
+    {
+        "Name": "Sofija",
+        "Age": 22,
+        "City": "Siauliai",
+        "Type": "User"
+    },
+    {
+        "Name": "Kevinas",
+        "Age": 21,
+        "City": "Vilnius",
+        "Type": "User"
+    }
+]

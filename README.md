@@ -1,6 +1,7 @@
 # NuGET, JSON
 Version 0.1
 - Created "data.json" file which holds an array of json objects
+- Set the json file to always copy to output path in the properties tab
 - json object format:
     - Name: String
     - Age: Int

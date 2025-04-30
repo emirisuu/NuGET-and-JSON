@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 class Program
 {
@@ -19,17 +20,20 @@ class Program
 
     static void Main(string[] args)
     {
+        // Deserialize the first JSON file into a list of User objects
         string filePath = "data.json";
-
-        // Read the JSON file and deserialize it into a list of User objects
         string jsonData = File.ReadAllText(filePath);
         List<User> users = JsonConvert.DeserializeObject<List<User>>(jsonData);
 
-        // Print the list of users
-        foreach (var user in users)
-        {
-            Console.WriteLine($"Name: {user.Name}\nAge: {user.Age}\nCity: {user.City}\n");
-        }
+        // Deserialize the second JSON file into a list of UserTypes objects
+        filePath = "user_types.json";
+        jsonData = File.ReadAllText(filePath);
+        List<UserTypes> userTypes = JsonConvert.DeserializeObject<List<UserTypes>>(jsonData);
 
+        // Print the list of UserTypes
+        foreach (var user in userTypes)
+        {
+            Console.WriteLine($"Name: {user.Name}\nAge: {user.Age}\nCity: {user.City}\nType: {user.Type}\n");
+        }
     }
 }
